@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Poppins&family=Roboto+Slab:wght@500&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(61, 60, 57);
+}
+
+.headrr {
+  width: 80%;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.add_task {
+  width: 80%;
+  height: 80px;
+  background-color: rgb(0, 157, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  box-shadow: 0px 0px 16px rgb(0, 0, 0);
+}
+
+#add_task_input {
+  outline: none;
+  width: 30%;
+  height: 40%;
+  font-size: 18px;
+  box-shadow: 0px 3px 15px rgb(45, 43, 43);
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.add_task button {
+  height: 40%;
+  width: 10%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 3px 15px rgb(45, 43, 43);
+  margin-left: 10px;
+  border: none;
+  font-weight: 900;
+  border-radius: 5px;
+}
+
+.tasks_lists_main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.white_color {
+  background-color: white;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 30px;
+  border-radius: 5px;
+}
+.white_color h1 {
+  color: rgb(0, 157, 255);
+  background-color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 0px 03px 4px black;
+}
+
+.tasks_list_inner {
+  width: 80%;
+  padding: 20px 20px;
+  margin: 10px 0px;
+  border-radius: 100px;
+  background-color: rgb(0, 157, 255);
+  box-shadow: 0px 0px 16px rgb(0, 0, 0);
+}
+
+.tasks_list_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 157, 255);
+}
+
+#item {
+  outline: none;
+  width: 33%;
+  height: 33px;
+  font-size: 18px;
+  box-shadow: 0px 3px 15px rgb(45, 43, 43);
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
+.tasks_list_item button {
+  height: 33px;
+  width: 10%;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 3px 15px rgb(45, 43, 43);
+  margin-left: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
